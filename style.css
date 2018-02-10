@@ -1,0 +1,14 @@
+.header-nav-list {
+	background-color: #ffff00;
+	list-style: none;
+	padding-left: 0;
+}
+
+.header-nav-item {
+	display: inline;
+}
+
+.header-nav-link {
+	text-decoration: none;
+	font-size: 25px;
+}
