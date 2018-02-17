@@ -11,4 +11,16 @@
 .header-nav-link {
 	text-decoration: none;
 	font-size: 25px;
+	transition-property: color;
+	transition-duration: .5s;
+	transition-delay: .5s;
+	transition-timing-function: ease-in;
+}
+
+.header-nav-link.active {
+	text-decoration: underline;
+}
+
+.header-nav-link:hover {
+	color: #10e6cc;
 }
