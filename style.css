@@ -24,3 +24,11 @@
 .header-nav-link:hover {
 	color: #10e6cc;
 }
+
+p {
+	font-size: 18px;
+}
+
+span {
+	color: #00f;
+}
