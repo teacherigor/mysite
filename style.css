@@ -32,3 +32,7 @@ p {
 span {
 	color: #00f;
 }
+
+label {
+	cursor: pointer;
+}
