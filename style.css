@@ -26,13 +26,66 @@
 }
 
 p {
-	font-size: 18px;
+	font-size: 22px;
 }
 
 span {
 	color: #00f;
 }
 
-label {
+/*customize the label as the container*/
+.container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
 	cursor: pointer;
+	font-size: 20px;
+	user-select: none; /*???*/
+}
+
+/*hide the browser's default radio button*/
+.container input {
+	position: absolute;
+	opacity: 0;
+}
+
+/*a custom radio button*/
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 18px;
+	width: 18px;
+	background-color: #eee;
+	border-radius: 50%;
+}
+
+.container:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+	background-color: #ff6347;
+}
+
+.checkmark:after {
+	content: ""; /*???*/
+	position: absolute;
+	display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/*style the indicator dot/circle*/
+.container .checkmark:after {
+	/* position: absolute; */
+	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #000;
 }
