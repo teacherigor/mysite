@@ -34,7 +34,7 @@ span {
 }
 
 /*customize the label as the container*/
-.container {
+.radio-container {
 	display: block;
 	position: relative;
 	padding-left: 35px;
@@ -45,7 +45,7 @@ span {
 }
 
 /*hide the browser's default radio button*/
-.container input {
+.radio-container input {
 	position: absolute;
 	opacity: 0;
 }
@@ -55,17 +55,17 @@ span {
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: 18px;
-	width: 18px;
+	height: 19px;
+	width: 19px;
 	background-color: #eee;
 	border-radius: 50%;
 }
 
-.container:hover input ~ .checkmark {
+.radio-container:hover input ~ .checkmark {
 	background-color: #ccc;
 }
 
-.container input:checked ~ .checkmark {
+.radio-container input:checked ~ .checkmark {
 	background-color: #ff6347;
 }
 
@@ -75,17 +75,17 @@ span {
 	display: none;
 }
 
-.container input:checked ~ .checkmark:after {
+.radio-container input:checked ~ .checkmark:after {
 	display: block;
 }
 
 /*style the indicator dot/circle*/
-.container .checkmark:after {
+.radio-container .checkmark:after {
 	/* position: absolute; */
-	top: 9px;
-	left: 9px;
-	width: 8px;
-	height: 8px;
+	top: 6px;
+	left: 6px;
+	width: 7px;
+	height:7px;
 	border-radius: 50%;
 	background: #000;
 }
