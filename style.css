@@ -82,8 +82,9 @@ span {
 /*style the indicator dot/circle*/
 .radio-container .checkmark:after {
 	/* position: absolute; */
-	top: 6px;
-	left: 6px;
+	/*top: 6px;*/
+	/*left: 6px;*/
+	transform: translate(6px, 6px);
 	width: 7px;
 	height:7px;
 	border-radius: 50%;
