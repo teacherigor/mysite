@@ -6,4 +6,22 @@ var vocabularyData = [
 		rightAnswer: "best"
 	}
 ];
+
+var vocabularyData = [
+	{
+		id: 1,
+		question: "Anna will be an asset for the Tip Top Trading.",
+		answers: ["valuable employee", "disorganised employee", "immature employee"],
+		rightAnswer: "valuable employee"
+	}
+];
+
+var vocabularyData = [
+	{
+		id: 2,
+		question: "When things go wrong, Paul has to take charge.",
+		answers: ["a coffee break", "sick leave", "responsibility"],
+		rightAnswer: "responsibility"
+	}
+];
 console.log(vocabularyData);
