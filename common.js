@@ -19,4 +19,29 @@ var vocabularyData = [
 	}
 ];
 
-console.log(vocabularyData);
+for (var index = 0; index < vocabularyData.length; index = index + 1) {
+	// console.log(index);
+	console.log(vocabularyData[index]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var sum = 1;
+// var number = 1;
+
+// for (;number <= 5; number = number + 1) {
+// 	sum = sum * number;
+// }
+
+// console.log('Finally ', sum);
+// console.log(vocabularyData);
