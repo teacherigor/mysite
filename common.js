@@ -19,9 +19,9 @@ var vocabularyData = [
 	}
 ];
 
-for (var index = 0; index < vocabularyData.length; index = index + 1) {
+for (var answers = 0; answers < answers.length; answers = answers + 1) {
 	// console.log(index);
-	console.log(vocabularyData[index]);
+	console.log('Object {} ', answers[answers]);
 }
 
 
