@@ -19,4 +19,6 @@ var vocabularyData = [
 	}
 ];
 
+var i;
+for ()
 console.log(vocabularyData);
