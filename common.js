@@ -19,12 +19,12 @@ var vocabularyData = [
 	}
 ];
 
-for (var index = 0; index < vocabularyData.length; index = index + 1){
-	// console.log(vocabularyData[index]);
+for (var index = 0; index < vocabularyData.length; index++){
+	console.log(vocabularyData[index]);
 	
-	for (var answersIndex = 0; answersIndex < vocabularyData[0].answers.length; answersIndex = answersIndex + 1) {
-		console.log(answersIndex[index]);
-	}
+	// for (var answersIndex = 0; answersIndex < vocabularyData[0].answers.length; answersIndex = answersIndex + 1) {
+		// console.log(answersIndex[index]);
+	// }
 }
 
 
