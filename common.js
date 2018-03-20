@@ -22,7 +22,7 @@ var vocabularyData = [
 for (var index = 0; index < vocabularyData.length; index++){
 	console.log(vocabularyData[index]);
 	
-	for (var answersIndex = 0; answersIndex < vocabularyData[index].answers.length; answersIndex = answersIndex + 1) {
+	for (var answersIndex = 0; answersIndex < vocabularyData[index].answers.length; answersIndex++) {
 		console.log(vocabularyData[index].answers[answersIndex]);
 	}
 }
