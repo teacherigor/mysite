@@ -20,10 +20,10 @@ var vocabularyData = [
 ];
 
 for (var index = 0; index < vocabularyData.length; index++){
-	console.log(vocabularyData[index]);
+	console.log("Object " + vocabularyData[index]);
 	
 	for (var answersIndex = 0; answersIndex < vocabularyData[index].answers.length; answersIndex++) {
-		console.log(vocabularyData[index].answers[answersIndex]);
+		console.log("Answer " + vocabularyData[index].answers[answersIndex]);
 	}
 }
 
