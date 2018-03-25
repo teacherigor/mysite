@@ -19,14 +19,21 @@ var vocabularyData = [
 	}
 ];
 
-for (var index = 0; index < vocabularyData.length; index++){
-	console.log("Object " + vocabularyData[index]);
+for (var questionIndex = 0; questionIndex < vocabularyData.length; questionIndex++){
+	var questionNumber = questionIndex + 1;
+	var answers = "";
+
+	console.log("Question number " + questionNumber);
 	
-	for (var answersIndex = 0; answersIndex < vocabularyData[index].answers.length; answersIndex++) {
-		console.log("Answer " + vocabularyData[index].answers[answersIndex]);
+	for (var answersIndex = 0; answersIndex < vocabularyData[questionIndex].answers.length; answersIndex++) {
+		answers = answers + vocabularyData[questionIndex].answers[answersIndex];
+		// console.log("Answer " + vocabularyData[questionIndex].answers[answersIndex]);
 	}
+
+	console.log("Answers: ", answers);
 }
 
+// console.log('________________________')
 
 
 
