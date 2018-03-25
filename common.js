@@ -26,11 +26,11 @@ for (var questionIndex = 0; questionIndex < vocabularyData.length; questionIndex
 	console.log("Question number " + questionNumber);
 	
 	for (var answersIndex = 0; answersIndex < vocabularyData[questionIndex].answers.length; answersIndex++) {
-		answers = answers + vocabularyData[questionIndex].answers[answersIndex];
+		answers = answers + ', ' + vocabularyData[questionIndex].answers[answersIndex];
 		// console.log("Answer " + vocabularyData[questionIndex].answers[answersIndex]);
 	}
 
-	console.log("Answers: ", answers);
+	console.log("Answers:", answers);
 }
 
 // console.log('________________________')
