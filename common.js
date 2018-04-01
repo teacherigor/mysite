@@ -19,21 +19,33 @@ var vocabularyData = [
 	}
 ];
 
+var textResult = "";
+
 for (var questionIndex = 0; questionIndex < vocabularyData.length; questionIndex++){
 	var questionNumber = questionIndex + 1;
 	var answers = "";
+	var separateDefault = ", ";
 
-	console.log("Question number " + questionNumber);
-	
+			
 	for (var answersIndex = 0; answersIndex < vocabularyData[questionIndex].answers.length; answersIndex++) {
-		answers = answers + ', ' + vocabularyData[questionIndex].answers[answersIndex];
+		var separate = null;
+		if (answersIndex == 0) {
+			separate = "";
+		} else {
+			separate = separateDefault;
+		}
+		answers = answers + separate + vocabularyData[questionIndex].answers[answersIndex];
 		// console.log("Answer " + vocabularyData[questionIndex].answers[answersIndex]);
 	}
 
-	console.log("Answers:", answers);
+	textResult += "Question number " + questionNumber + '\n'; 
+	textResult += "Answers: " + answers + '\n';
+	textResult += '________________________' + '\n';
+
 }
 
-// console.log('________________________')
+	console.log(textResult);
+
 
 
 
