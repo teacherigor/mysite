@@ -19,61 +19,14 @@ var vocabularyData = [
 	}
 ];
 
-var formNode = document.getElementById('tasklist');
-var titleNode = document.createElement('h2');
-var textNode = document.createTextNode('Choose the correct synonym for the highlighted word.');
-titleNode.appendChild(textNode);
-formNode.appendChild(titleNode);
+var questionsForm = document.getElementById('questionlist');
 
-var paraNode = document.createElement('p');
-var paraInner = 'This program is full of <span>top</span> tips to help you learn useful business English.'
-paraNode.innerHTML = paraInner;
-paraNode.style = 'color: green; font-size: 20px';
-formNode.appendChild(paraNode);
-
-
-
-var textResult = "";
-
-for (var questionIndex = 0; questionIndex < vocabularyData.length; questionIndex++){
-	var questionNumber = questionIndex + 1;
-	var answers = "";
-	var separateDefault = ", ";
-
-			
-	for (var answersIndex = 0; answersIndex < vocabularyData[questionIndex].answers.length; answersIndex++) {
-		var separate = null;
-		if (answersIndex == 0) {
-			separate = "";
-		} else {
-			separate = separateDefault;
-		}
-		answers = answers + separate + vocabularyData[questionIndex].answers[answersIndex];
-		// console.log("Answer " + vocabularyData[questionIndex].answers[answersIndex]);
-	}
-
-	textResult += "Question number " + questionNumber + '\n'; 
-	textResult += "Answers: " + answers + '\n';
-	textResult += '________________________' + '\n';
-
+for (var questionIndex = 0; questionIndex < vocabularyData.length; questionIndex++) {
+	questionsForm.appendChild(getQuestionBox(vocabularyData[questionIndex].question));
 }
 
-	console.log(textResult);
 
-
-
-
-
-
-
-
-var sum = 1;
-var number = 1;
-
-for (;number <= 5; number = number + 1) {
-	sum = sum * number;
+function getQuestionBox(question) {
+	var box = document.createElement('div');
+	return box;
 }
-
-console.log('Finally ', sum);
-console.log(vocabularyData);
-
