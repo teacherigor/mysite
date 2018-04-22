@@ -28,6 +28,6 @@ for (var questionIndex = 0; questionIndex < vocabularyData.length; questionIndex
 
 function getQuestionBox(question) {
 	var box = document.createElement('div');
-	document.write(question);
+	document.write(question + "<br/>");
 	return box;
 }
