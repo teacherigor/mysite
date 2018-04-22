@@ -26,56 +26,54 @@ titleNode.appendChild(textNode);
 formNode.appendChild(titleNode);
 
 var paraNode = document.createElement('p');
-var paraTextNode = document.createTextNode('This program is full of <span>top</span> tips to help you learn useful business English.');
-paraNode.appendChild(paraTextNode);
+var paraInner = 'This program is full of <span>top</span> tips to help you learn useful business English.'
+paraNode.innerHTML = paraInner;
+paraNode.style = 'color: green; font-size: 20px';
 formNode.appendChild(paraNode);
 
 
-// console.log(titleNode);
 
+var textResult = "";
 
-
-// var textResult = "";
-
-// for (var questionIndex = 0; questionIndex < vocabularyData.length; questionIndex++){
-// 	var questionNumber = questionIndex + 1;
-// 	var answers = "";
-// 	var separateDefault = ", ";
+for (var questionIndex = 0; questionIndex < vocabularyData.length; questionIndex++){
+	var questionNumber = questionIndex + 1;
+	var answers = "";
+	var separateDefault = ", ";
 
 			
-// 	for (var answersIndex = 0; answersIndex < vocabularyData[questionIndex].answers.length; answersIndex++) {
-// 		var separate = null;
-// 		if (answersIndex == 0) {
-// 			separate = "";
-// 		} else {
-// 			separate = separateDefault;
-// 		}
-// 		answers = answers + separate + vocabularyData[questionIndex].answers[answersIndex];
-// 		// console.log("Answer " + vocabularyData[questionIndex].answers[answersIndex]);
-// 	}
+	for (var answersIndex = 0; answersIndex < vocabularyData[questionIndex].answers.length; answersIndex++) {
+		var separate = null;
+		if (answersIndex == 0) {
+			separate = "";
+		} else {
+			separate = separateDefault;
+		}
+		answers = answers + separate + vocabularyData[questionIndex].answers[answersIndex];
+		// console.log("Answer " + vocabularyData[questionIndex].answers[answersIndex]);
+	}
 
-// 	textResult += "Question number " + questionNumber + '\n'; 
-// 	textResult += "Answers: " + answers + '\n';
-// 	textResult += '________________________' + '\n';
+	textResult += "Question number " + questionNumber + '\n'; 
+	textResult += "Answers: " + answers + '\n';
+	textResult += '________________________' + '\n';
 
-// }
+}
 
-// 	console.log(textResult);
-
-
+	console.log(textResult);
 
 
 
 
 
 
-// var sum = 1;
-// var number = 1;
 
-// for (;number <= 5; number = number + 1) {
-// 	sum = sum * number;
-// }
 
-// console.log('Finally ', sum);
-// console.log(vocabularyData);
+var sum = 1;
+var number = 1;
+
+for (;number <= 5; number = number + 1) {
+	sum = sum * number;
+}
+
+console.log('Finally ', sum);
+console.log(vocabularyData);
 
