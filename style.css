@@ -90,3 +90,7 @@ span {
 	border-radius: 50%;
 	background: #000;
 }
+
+.question {
+	color: red;
+}
