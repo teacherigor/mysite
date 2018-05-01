@@ -27,12 +27,10 @@ for (var questionIndex = 0; questionIndex < vocabularyData.length; questionIndex
 	node.className = 'question';
 	questionsForm.appendChild(node);
 
-	for (var answersIndex = 0; answersIndex < vocabularyData[questionIndex].length; answersIndex++) {
-		var nodeAnswers = document.createElement('label');
-		// questionINdex.appendChild(nodeAnswers);
+	for (var answersIndex = 0; answersIndex < vocabularyData[questionIndex].answers.length; answersIndex++) {
+		var nodeAnswers = document.createElement('div');
 		nodeAnswers.innerHTML = vocabularyData[answersIndex].answers;
 		questionsForm.appendChild(nodeAnswers);
-		// node.className = 'answers';
 		
 	}
 
