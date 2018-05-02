@@ -29,7 +29,7 @@ for (var questionIndex = 0; questionIndex < vocabularyData.length; questionIndex
 
 	for (var answersIndex = 0; answersIndex < vocabularyData[questionIndex].answers.length; answersIndex++) {
 		var nodeAnswers = document.createElement('div');
-		nodeAnswers.innerHTML = vocabularyData[answersIndex].answers;
+		nodeAnswers.innerHTML = vocabularyData[questionIndex].answers[answersIndex];
 		questionsForm.appendChild(nodeAnswers);
 		
 	}
