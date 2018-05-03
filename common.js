@@ -31,6 +31,8 @@ for (var questionIndex = 0; questionIndex < vocabularyData.length; questionIndex
 		var nodeAnswers = document.createElement('div');
 		nodeAnswers.innerHTML = vocabularyData[questionIndex].answers[answersIndex];
 		questionsForm.appendChild(nodeAnswers);
+		var nodeInputs = document.createElement('input');
+		questionsForm.appendChild(nodeInputs);
 		
 	}
 
