@@ -28,11 +28,12 @@ for (var questionIndex = 0; questionIndex < vocabularyData.length; questionIndex
 	questionsForm.appendChild(node);
 
 	for (var answersIndex = 0; answersIndex < vocabularyData[questionIndex].answers.length; answersIndex++) {
-		var nodeAnswers = document.createElement('div');
-		nodeAnswers.innerHTML = vocabularyData[questionIndex].answers[answersIndex];
-		questionsForm.appendChild(nodeAnswers);
-		var nodeInputs = document.createElement('input');
-		questionsForm.appendChild(nodeInputs);
+		var nodeAnswer = document.createElement('div');
+		nodeAnswer.innerHTML = vocabularyData[questionIndex].answers[answersIndex];
+		questionsForm.appendChild(nodeAnswer);
+		var nodeInput = document.createElement('input');
+		nodeInput.type = 'radio';
+		nodeAnswer.appendChild(nodeInput);
 		
 	}
 
