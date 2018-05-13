@@ -22,18 +22,23 @@ var vocabularyData = [
 var questionsForm = document.getElementById('questionslist');
 
 for (var questionIndex = 0; questionIndex < vocabularyData.length; questionIndex++) {
-	var node = document.createElement('div');
-	node.innerHTML = vocabularyData[questionIndex].question;
-	node.className = 'question';
-	questionsForm.appendChild(node);
+	var nodeQuestion = document.createElement('div');
+	nodeQuestion.innerHTML = vocabularyData[questionIndex].question;
+	nodeQuestion.className = 'question';
+	questionsForm.appendChild(nodeQuestion);
+	// console.log(questionIndex);
 
 	for (var answersIndex = 0; answersIndex < vocabularyData[questionIndex].answers.length; answersIndex++) {
 		var nodeAnswer = document.createElement('div');
-		nodeAnswer.innerHTML = vocabularyData[questionIndex].answers[answersIndex];
-		questionsForm.appendChild(nodeAnswer);
 		var nodeInput = document.createElement('input');
+		var nodeAnswerText = document.createTextNode(vocabularyData[questionIndex].answers[answersIndex]);
+
+		nodeAnswer.className = 'answer';
 		nodeInput.type = 'radio';
 		nodeAnswer.appendChild(nodeInput);
+		nodeAnswer.appendChild(nodeAnswerText);
+		questionsForm.appendChild(nodeAnswer);
+		// nodeAnswer.innerHTML = vocabularyData[questionIndex].answers[answersIndex];		
 		
 	}
 
@@ -45,3 +50,5 @@ for (var questionIndex = 0; questionIndex < vocabularyData.length; questionIndex
 // 	box.appendChild('question');
 // 	document.getElementById('questionslist'). appendChild(box);
 // 	}
+
+//I have two variables x, y. Print out all numbers with x and y range separating them with commas. If x is more than y, print out alert window.
