@@ -109,4 +109,12 @@ span {
 	background-color: antiquewhite;
 	width: 760px;
 	font-style: italic;
+	animation-name: colorchange;
+	animation-duration: 5s;
+}
+
+@keyframes colorchange {
+	0% {background-color: #baebd8;}
+	50% {background-color: #baebd9;}
+	100% {background-color: #baebd7;}
 }
