@@ -103,3 +103,10 @@ span {
 .answer {
 	color: green;
 }
+
+.reviews {
+	padding: 4px 12px;
+	background-color: antiquewhite;
+	width: 760px;
+	font-style: italic;
+}
