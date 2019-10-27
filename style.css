@@ -11,6 +11,7 @@ body {
 
 .header-nav-item {
 	display: inline;
+	margin-right: 40px;
 }
 
 .header-nav-link {
