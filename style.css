@@ -119,3 +119,7 @@ span {
 	50% {background-color: #baebd9;}
 	100% {background-color: #baebd7;}
 }
+
+.set_sb_up {
+	font-size: 22px;
+}
