@@ -123,3 +123,10 @@ span {
 .set_sb_up {
 	font-size: 22px;
 }
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+
