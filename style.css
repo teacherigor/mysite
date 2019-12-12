@@ -3,11 +3,11 @@ body {
 
 }
 .container {
-	/*max-width: 100%;*/
+	max-width: 100%;
 	margin: 0 auto;
 }
 .header-nav-list {
-	background-color: #ffff00;
+	background-color: #AAF4F4;
 	list-style: none;
 	padding: 0;
 	display: flex;
@@ -39,26 +39,35 @@ body {
 .header-nav-link:hover {
 	color: #10e6cc;
 }
-.proverb {
+.title {
+	display: flex;
+	justify-content: center;
+}
+.subtitle {
+	display: flex;
+	justify-content: center;
+}
+.item {
 	border: 2px solid #aaa;
 	border-radius: 5px;
 	padding: 15px;
 	margin: 0px 0px 15px 0px;
 }
-.proverb__column {
+.item__column {
 	display: flex;
 	flex-direction: column;
 }
-.proverb__definition {
+.item__definition {
 	font-size: 26px;
 }
-.proverb__example {
+.item__example {
 	font-size: 24px;
 }
-.proverb__dialogue {
+.item__text {
+	font-size: 22px;
 
 }
-.proverb__dialogue p {
+.item__text p {
 	font-size: 22px;
 	margin: 0;
 }
