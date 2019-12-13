@@ -59,6 +59,10 @@ body {
 }
 .item__definition {
 	font-size: 26px;
+	text-align: center;
+}
+.item__rules {
+	font-size: 24px;
 }
 .item__example {
 	font-size: 24px;
