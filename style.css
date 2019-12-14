@@ -47,6 +47,17 @@ body {
 	display: flex;
 	justify-content: center;
 }
+.reviews {
+	display: flex;
+	justify-content: center;
+	padding: 4px 12px;
+	background-color: antiquewhite;
+	/*width: 760px;*/
+	font-style: italic;
+	text-align: center;
+	animation-name: colorchange;
+	animation-duration: 5s;
+}
 .item {
 	border: 2px solid #aaa;
 	border-radius: 5px;
@@ -147,12 +158,7 @@ span {
 }
 
 .reviews {
-	padding: 4px 12px;
-	background-color: antiquewhite;
-	width: 760px;
-	font-style: italic;
-	animation-name: colorchange;
-	animation-duration: 5s;
+	
 }
 
 @keyframes colorchange {
