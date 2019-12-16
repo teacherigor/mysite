@@ -2,6 +2,9 @@ body {
 	font-family: 'Grenze', serif;
 
 }
+p {
+	margin: 0;
+}
 .container {
 	max-width: 100%;
 	margin: 0 auto;
@@ -52,6 +55,10 @@ body {
 	justify-content: center;
 	padding: 4px 12px;
 	background-color: antiquewhite;
+	border: 2px solid #aaa;
+	border-radius: 5px;
+	font-size: 24px;
+
 	/*width: 760px;*/
 	font-style: italic;
 	text-align: center;
