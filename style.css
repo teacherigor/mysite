@@ -93,6 +93,11 @@ p {
 	font-size: 22px;
 	margin: 0;
 }
+.item__text em {
+	border: 2px solid #aaa;
+	border-radius: 5px;
+	background-color: #e7eb1c;
+}
 
 span {
 	color: #00f;
