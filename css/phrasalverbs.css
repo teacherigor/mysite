@@ -1,0 +1,23 @@
+.phrasalverbs-list {
+	display: none;
+	width: 177px;
+	position: absolute;
+	list-style: none;
+	text-decoration: none;
+	font-size: 25px;
+	text-align: center;
+	background-color: #AAF4F4;
+	padding: 0;
+	border: 2px solid #aaa;
+	border-radius: 5px;
+}
+.header-nav-item:hover phrasalverbs-list{
+	display: block;
+	/*background-color: #8098a8;*/
+}
+.phrasalverbs-link:hover {
+	background-color: #fff;
+	color: #000;
+	border: 2px solid #aaa;
+	border-radius: 5px;
+}
