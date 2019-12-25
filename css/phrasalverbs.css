@@ -1,3 +1,7 @@
+.header-nav-item {
+	position: relative;
+	display: inline-block;
+}
 .phrasalverbs-list {
 	display: none;
 	width: 177px;
