@@ -22,13 +22,13 @@ body {
 
 .header-nav-item {
 	position: relative;
-	/*display: inline-block;*/
+	display: inline-block;
 	/*display: inline;*/
 	/*margin-right: 40px;*/
 	/*display: flex;*/
 	/*justify-content: space-between;*/
 }
-.phrasalverbs-list {
+.dropdown-list {
 	display: none;
 	width: 177px;
 	position: absolute;
@@ -41,7 +41,7 @@ body {
 	border: 2px solid #aaa;
 	border-radius: 5px;
 }
-.header-nav-item:hover phrasalverbs-list{
+.header-nav-item:hover .dropdown-list{
 	display: block;
 	/*background-color: #8098a8;*/
 }
@@ -115,11 +115,11 @@ body {
 	line-height: 40px;
 	margin: 0;
 }
-.item__text em {
+em {
 	border: 2px solid #aaa;
 	border-radius: 5px;
 }
-.item__text em:hover {
+em:hover {
 	cursor: pointer;
 	top: 2px;
 	box-shadow: 0 3px 0px #3c354a;
