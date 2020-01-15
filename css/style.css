@@ -99,6 +99,7 @@ body {
 .item__definition {
 	font-size: 26px;
 	text-align: center;
+	margin-bottom: 5px;
 }
 .item__rules {
 	font-size: 24px;
