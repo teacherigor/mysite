@@ -123,6 +123,7 @@ body {
 em {
 	border: 2px solid #aaa;
 	border-radius: 5px;
+	padding: 0 3px;
 }
 em:hover {
 	cursor: pointer;
