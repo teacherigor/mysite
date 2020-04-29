@@ -1,4 +1,5 @@
-/* * {
+/* reset css style */
+* {
   padding: 0;
   margin: 0;
   border: 0;
@@ -66,7 +67,7 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
-} */
+}
 
 /* --------------------------------------------------- */
 
@@ -75,12 +76,17 @@ body {
 
 }
 .wrapper {
-	overflow: hidden;
 	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 .container {
 	max-width: 100%;
 	margin: 0 auto;
+}
+.content{
+	flex: 1 1 auto;
 }
 .header-nav-list { 
 	background-color: #AAF4F4;
@@ -135,6 +141,8 @@ body {
 	color: #10e6cc;
 }
 .title {
+	font-size: 2em;
+	font-weight: 700;
 	display: flex;
 	justify-content: center;
 }
@@ -295,3 +303,45 @@ span {
 		width: 960px;
 	}
 }
+
+/* .wrapper {
+}
+.content {
+}
+.container {
+}
+.header-nav {
+}
+.header-nav-list {
+}
+.header-nav-item {
+}
+.header-nav-link {
+}
+.active {
+}
+.dropdown-list {
+}
+.dropdown-item {
+}
+.dropdown-link {
+}
+.idioms-item {
+}
+.idioms-link {
+}
+.title {
+}
+.subtitle {
+}
+.reviews {
+}
+.footer {
+
+		&__row {
+		}
+
+		&__text {
+		}
+}
+ */
