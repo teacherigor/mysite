@@ -172,6 +172,20 @@ body {
 	animation-name: colorchange;
 	animation-duration: 5s;
 }
+.footer{
+	background-color: #cc9f9f;
+}
+.footer__row {
+	display: flex;
+	height: 55px;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+.footer__text{
+
+}
+/* ----------------------- */
 .item {
 	border: 2px solid #aaa;
 	border-radius: 5px;
