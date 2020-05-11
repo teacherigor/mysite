@@ -84,7 +84,25 @@ body {
 .container {
 	max-width: 100%;
 	margin: 0 auto;
+	padding: 0px 15px;
 }
+
+@media(max-width:1200px) {
+	.container{
+		max-width: 970px;
+	}
+}
+@media(max-width:992px) {
+	.container{
+		max-width: 750px;
+	}
+}
+@media(max-width:767px) {
+	.container{
+		max-width: none;
+	}
+}
+
 .content{
 	flex: 1 1 auto;
 }
@@ -173,17 +191,21 @@ body {
 	animation-duration: 5s;
 }
 .footer{
-	background-color: #cc9f9f;
+	/* background-color: #cc9f9f; */
 }
 .footer__row {
 	display: flex;
 	height: 50px;
 	justify-content: center;
 	align-items: center;
+	background-color: #cc9f9f;
+	border-radius: 5px;
+	margin: 0px 0px 10px 0px;
 }
 .footer__text{
 	font-size: 20px;
 	letter-spacing: 0.3px;
+	/* background-color: #cc9f9f; */
 }
 /* ----------------------- */
 .item {
