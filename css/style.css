@@ -195,10 +195,17 @@ body {
 	line-height: 40px;
 	margin: 0;
 }
+
 em {
+	font-size: 22px;
 	border: 2px solid #aaa;
 	border-radius: 5px;
 	padding: 0 3px;
+}
+@media(max-width:767px){
+	em{
+		background-color: #e7eb1c;
+	}
 }
 em:hover {
 	cursor: pointer;
