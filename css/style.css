@@ -90,7 +90,6 @@ body {
 	margin: 0 auto;
 	padding: 0px 15px;
 }
-
 @media(max-width:1200px) {
 	.container{
 		max-width: 970px;
@@ -170,12 +169,22 @@ body {
 	text-align: center;
 	margin: 0px 0px 10px 0px;
 }
-@media(max-width:767px) {
+@media(max-width:992px) {
 	.title{
 		font-size: 30px;
 		/* display: flex; */
 		/* justify-content: center;	 */
-		margin: 0px 0px 10px 0px;
+		margin: 0px 0px 5px 0px;
+		text-align: center;
+	}
+}
+@media(max-width:767px) {
+	.title{
+		font-size: 20px;
+		/* display: flex; */
+		/* justify-content: center;	 */
+		margin: 0px 0px 5px 0px;
+		text-align: center;
 	}
 }
 
@@ -189,27 +198,45 @@ body {
 }
 @media(max-width:992px){
 	.subtitle{
-		font-size: 25px;
+		font-size: 22px;
+		text-align: center;
+	}
+}
+@media(max-width:767px){
+	.subtitle{
+		font-size: 16px;
 		text-align: center;
 	}
 }
 
 .reviews {
-	display: flex;
-	justify-content: center;
+	/* display: flex;
+	justify-content: center; */
 	padding: 4px 12px;
 	background-color: antiquewhite;
 	border: 2px solid #aaa;
 	border-radius: 5px;
 	font-size: 24px;
 	margin: 0px 0px 15px 0px;
-
 	/*width: 760px;*/
 	font-style: italic;
 	text-align: center;
 	animation-name: colorchange;
 	animation-duration: 5s;
 }
+@media(max-width:992px){
+	.reviews{
+		font-size: 20px;
+		text-align: center;
+	}
+}
+@media(max-width:767px){
+	.reviews{
+		font-size: 16px;
+		text-align: center;
+	}
+}
+
 .footer{
 	/* background-color: #cc9f9f; */
 }
