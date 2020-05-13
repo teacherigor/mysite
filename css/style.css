@@ -134,6 +134,13 @@ body {
 	animation-name: colorchange;
 	animation-duration: 5s;
 }
+a{
+	font-size: 22px;
+	display:block;
+	padding: 0px 5px;
+	margin: 0px 0px 10px 0px;
+	color: black;
+}
 @media(max-width:992px){
 	.reviews{
 		font-size: 20px;
