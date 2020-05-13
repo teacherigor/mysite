@@ -57,7 +57,7 @@ body {
 	position: absolute;
 	list-style: none;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 22px;
 	text-align: center;
 	background-color: #AAF4F4;
 	padding: 5px;
@@ -71,7 +71,7 @@ body {
 
 .header-nav-link {
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 22px;
 	transition-property: color;
 	transition-duration: .5s;
 	transition-delay: .5s;
@@ -87,14 +87,14 @@ body {
 }
 
 .title {
-	font-size: 40px;
+	font-size: 36px;
 	font-weight: 700;
 	text-align: center;
 	margin: 0px 0px 10px 0px;
 }
 @media(max-width:992px) {
 	.title{
-		font-size: 30px;
+		font-size: 28px;
 		margin: 0px 0px 5px 0px;
 	}
 }
@@ -106,14 +106,14 @@ body {
 }
 
 .subtitle {
-	font-size: 30px;
+	font-size: 28px;
 	font-weight: 400;
 	text-align: center;
 	margin: 0px 0px 10px 0px;
 }
 @media(max-width:992px){
 	.subtitle{
-		font-size: 22px;
+		font-size: 20px;
 	}
 }
 @media(max-width:767px){
@@ -127,19 +127,12 @@ body {
 	background-color: antiquewhite;
 	border: 2px solid #aaa;
 	border-radius: 5px;
-	font-size: 24px;
+	font-size: 22px;
 	margin: 0px 0px 15px 0px;
 	font-style: italic;
 	text-align: center;
 	animation-name: colorchange;
 	animation-duration: 5s;
-}
-a{
-	font-size: 22px;
-	display:block;
-	padding: 0px 5px;
-	margin: 0px 0px 10px 0px;
-	color: black;
 }
 @media(max-width:992px){
 	.reviews{
@@ -163,7 +156,7 @@ a{
 	flex-direction: column;
 }
 .item__definition {
-	font-size: 24px;
+	font-size: 22px;
 	text-align: center;
 	margin-bottom: 10px;
 }
@@ -172,23 +165,22 @@ a{
 }
 .item__example {
 	width: fit-content;
-	font-size: 22px;
+	font-size: 20px;
 	border: 2px solid #aaa;
 	border-radius: 5px;
 	background-color: #C4FFCC;
 }
 .item__text {
-	font-size: 22px;
+	font-size: 20px;
 
 }
 .item__text p {
-	font-size: 22px;
-	line-height: 40px;
+	font-size: 20px;
+	line-height: 30px;
 	margin: 0;
 }
 
 em {
-	/* font-size: 22px; */
 	border: 2px solid #aaa;
 	border-radius: 5px;
 	padding: 0 3px;
@@ -204,7 +196,6 @@ em:hover {
 	box-shadow: 0 3px 0px #3c354a;
 	background-color: #e7eb1c;
 	transition-duration: 2s;
-	/*transition-delay: 2s;*/
 }
 
 span {
