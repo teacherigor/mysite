@@ -180,13 +180,19 @@ body {
 	margin: 0;
 }
 
-.idioms-list {
+.list {
 	list-style-type: square;
 	list-style-position: outside;
 }
-.idioms-item {
+.list-item {
 	font-size: 20px;
 	padding: 5px 0px 0px 20px;
+}
+
+a{
+	display: flex;
+	text-decoration: underline;
+	padding: 5px;
 }
 
 em {
