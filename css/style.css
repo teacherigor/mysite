@@ -330,8 +330,11 @@ main{
 
 a{
 	display: flex;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 	padding: 5px;
+}
+a.entry{
+	display: inline-block;
 }
 
 em {
