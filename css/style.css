@@ -209,7 +209,7 @@ main{
 }
 @media(max-width:767px) {
 	.title{
-		font-size: 20px;
+		font-size: 18px;
 		margin: 0px 0px 5px 0px;
 	}
 }
@@ -227,7 +227,7 @@ main{
 }
 @media(max-width:767px){
 	.subtitle{
-		font-size: 16px;
+		font-size: 18px;
 	}
 }
 
@@ -250,7 +250,7 @@ main{
 }
 @media(max-width:767px){
 	.reviews{
-		font-size: 16px;
+		font-size: 18px;
 	}
 }
 
@@ -260,6 +260,12 @@ main{
 	padding: 15px;
 	margin: 0px 0px 15px 0px;
 }
+@media(max-width:767px){
+	.item{
+		font-size: 18px;
+	}
+}
+
 .item__column {
 	display: flex;
 	flex-direction: column;
@@ -272,11 +278,24 @@ main{
 .item__definition p{
 	margin: 10px 0px 10px 0px;
 }
+@media(max-width:767px){
+	.item__definition p{
+		/* text-align: justify; */
+		font-size: 18px;
+	}
+}
+
 .item__rules p {
 	font-size: 20px;
 	line-height: 30px;
 	margin: 0px 0px 10px 0px;
 }
+@media(max-width:767px){
+	.item__rules p{
+		text-align: justify;
+	}
+}
+
 .item__example {
 	width: fit-content;
 	font-size: 20px;
@@ -291,6 +310,11 @@ main{
 	font-style: italic;
 	margin: 0px 0px 0px 0px;
 }
+@media(max-width:767px){
+	.item__rules p{
+		text-align: justify;
+	}
+}
 
 .item__text {
 	font-size: 20px;
@@ -299,6 +323,12 @@ main{
 	font-size: 20px;
 	line-height: 30px;
 	margin: 0px 0px 10px 0px;
+}
+@media(max-width:767px){
+	.item__text p{
+		text-align: justify;
+		font-size: 18px;
+	}
 }
 .item__text p:last-child {
 	margin: 0px 0px 0px 0px;
@@ -321,8 +351,10 @@ em {
 @media(max-width:767px){
 	em{
 		background-color: #e7eb1c;
+		font-size: 18px;
 	}
 }
+
 em:hover {
 	cursor: pointer;
 	top: 2px;
