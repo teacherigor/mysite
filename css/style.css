@@ -270,6 +270,7 @@ main{
 	display: flex;
 	flex-direction: column;
 }
+
 .item__definition {
 	font-size: 22px;
 	text-align: center;
