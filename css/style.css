@@ -240,8 +240,8 @@ main{
 	margin: 0px 0px 15px 0px;
 	font-style: italic;
 	text-align: center;
-	animation-name: colorchange;
-	animation-duration: 5s;
+	/* animation-name: colorchange;
+	animation-duration: 5s; */
 }
 @media(max-width:992px){
 	.reviews{
@@ -272,8 +272,10 @@ main{
 .item__definition p{
 	margin: 10px 0px 10px 0px;
 }
-.item__rules{
+.item__rules p {
 	font-size: 20px;
+	line-height: 30px;
+	margin: 0px 0px 10px 0px;
 }
 .item__example {
 	width: fit-content;
@@ -281,24 +283,26 @@ main{
 	border: 2px solid #aaa;
 	border-radius: 5px;
 	background-color: #C4FFCC;
+	margin: 0px 0px 10px 0px;
 }
+.example{
+	font-size: 20px;
+	line-height: 30px;
+	font-style: italic;
+	margin: 0px 0px 0px 0px;
+}
+
 .item__text {
 	font-size: 20px;
 }
 .item__text p {
 	font-size: 20px;
 	line-height: 30px;
-	margin: 0;
+	margin: 0px 0px 10px 0px;
 }
-
-/* .list {
-	list-style-type: square;
-	list-style-position: outside;
+.item__text p:last-child {
+	margin: 0px 0px 0px 0px;
 }
-.list-item {
-	font-size: 20px;
-	padding: 5px 0px 0px 20px;
-} */
 
 a{
 	display: flex;
