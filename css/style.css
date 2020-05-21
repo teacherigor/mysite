@@ -203,13 +203,13 @@ main{
 }
 @media(max-width:992px) {
 	.title{
-		font-size: 26px;
+		font-size: 24px;
 		margin: 0px 0px 5px 0px;
 	}
 }
 @media(max-width:767px) {
 	.title{
-		font-size: 18px;
+		font-size: 20px;
 		margin: 0px 0px 5px 0px;
 	}
 }
@@ -240,8 +240,8 @@ main{
 	margin: 0px 0px 15px 0px;
 	font-style: italic;
 	text-align: center;
-	/* animation-name: colorchange;
-	animation-duration: 5s; */
+	animation-name: colorchange;
+	animation-duration: 15s;
 }
 @media(max-width:992px){
 	.reviews{
@@ -260,11 +260,6 @@ main{
 	padding: 15px;
 	margin: 0px 0px 15px 0px;
 }
-@media(max-width:767px){
-	.item{
-		font-size: 18px;
-	}
-}
 
 .item__column {
 	display: flex;
@@ -276,25 +271,10 @@ main{
 	text-align: center;
 	margin-bottom: 10px;
 }
-.item__definition p{
-	margin: 10px 0px 10px 0px;
-}
-@media(max-width:767px){
-	.item__definition p{
-		/* text-align: justify; */
-		font-size: 18px;
-	}
-}
-
-.item__rules p {
-	font-size: 20px;
-	line-height: 30px;
-	margin: 0px 0px 10px 0px;
-}
-@media(max-width:767px){
-	.item__rules p{
-		text-align: justify;
-	}
+.item__definition li {
+	font-size: 22px;
+	text-align: left;
+	margin-bottom: 10px;
 }
 
 .item__example {
@@ -309,30 +289,19 @@ main{
 	font-size: 20px;
 	line-height: 30px;
 	font-style: italic;
-	margin: 0px 0px 0px 0px;
-}
-@media(max-width:767px){
-	.item__rules p{
-		text-align: justify;
-	}
+	margin: 0px 0px 10px 0px;
 }
 
-.item__text {
-	font-size: 20px;
-}
-.item__text p {
+.item p {
 	font-size: 20px;
 	line-height: 30px;
 	margin: 0px 0px 10px 0px;
 }
 @media(max-width:767px){
-	.item__text p{
+	.item p{
 		text-align: justify;
 		font-size: 18px;
 	}
-}
-.item__text p:last-child {
-	margin: 0px 0px 0px 0px;
 }
 
 a{
@@ -456,8 +425,13 @@ span {
 	margin: 0px 0px 10px 0px;
 }
 .footer__text{
-	font-size: 18px;
+	font-size: 16px;
 	letter-spacing: 0.3px;
 	color: #fff;
 	text-align: center;
+}
+.footer__text a {
+	color: #fff;
+	display: inline;
+	font-size: 16px;
 }
