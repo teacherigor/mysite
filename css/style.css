@@ -277,6 +277,7 @@ main{
 @media(max-width:767px){
 	.item__definition p{
 		font-size: 20px;
+		text-align: justify;
 	}
 }
 
@@ -297,7 +298,7 @@ main{
 }
 .example{
 	font-size: 20px;
-	line-height: 30px;
+	/* line-height: 30px; */
 	font-style: italic;
 	margin: 0px 0px 10px 0px;
 }
