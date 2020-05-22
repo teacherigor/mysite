@@ -33,6 +33,11 @@ body {
 	}
 }
 
+h1 {
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+	margin: 0px 0px 20px 0px;
+}
+
 .header {
 	position: fixed;
 	width: 100%;
@@ -280,7 +285,6 @@ main{
 		text-align: justify;
 	}
 }
-
 .item__definition li {
 	font-size: 20px;
 	text-align: justify;
@@ -288,6 +292,12 @@ main{
 	margin: 0px 0px 10px 20px;
 }
 
+.item__rules {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0px 0px 10px 0px;
+	
+}
 .item__example {
 	width: fit-content;
 	font-size: 20px;
