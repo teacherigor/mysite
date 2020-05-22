@@ -271,10 +271,20 @@ main{
 	text-align: center;
 	margin-bottom: 10px;
 }
+.item__definition p {
+	margin: 10px 0px 0px 0px;
+}
+@media(max-width:767px){
+	.item__definition p{
+		font-size: 20px;
+	}
+}
+
 .item__definition li {
-	font-size: 22px;
-	text-align: left;
-	margin-bottom: 10px;
+	font-size: 20px;
+	text-align: justify;
+	list-style: square;
+	margin: 0px 0px 10px 20px;
 }
 
 .item__example {
@@ -292,16 +302,11 @@ main{
 	margin: 0px 0px 10px 0px;
 }
 
-.item p {
+.item__text {
 	font-size: 20px;
-	line-height: 30px;
+	line-height: 25px;
+	text-align: justify;
 	margin: 0px 0px 10px 0px;
-}
-@media(max-width:767px){
-	.item p{
-		text-align: justify;
-		font-size: 18px;
-	}
 }
 
 a{
@@ -321,10 +326,8 @@ em {
 @media(max-width:767px){
 	em{
 		background-color: #e7eb1c;
-		font-size: 18px;
 	}
 }
-
 em:hover {
 	cursor: pointer;
 	top: 2px;
