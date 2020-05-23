@@ -55,7 +55,6 @@ h1 {
 	background-color: #5e5373;
 	z-index: 2;
 }
-
 .header__body{
 	position: relative;
 	display: flex;
@@ -64,7 +63,6 @@ h1 {
 	align-items: center;
 
 }
-
 .header__logo{
 	flex: 0 0 60px;
 	border-radius: 50%;
@@ -78,12 +76,10 @@ h1 {
 	display: block;
 	border-radius: 50%;
 }
-
 .header__burger{
 	display: none;
 }
 .header__menu{}
-
 .header__list {
 	display: flex;
 	position: relative;
@@ -94,17 +90,14 @@ h1 {
 	margin: 0px 0px 0px 20px;
 	position: relative;
 }
-
 .header-nav-link {
 	text-decoration: none;
 	font-size: 22px;
 	color: #fff;
 }
-
 .header-nav-link.active {
 	text-decoration: underline;
 }
-
 .header-nav-link:hover {
 	color: #10e6cc;
 }
@@ -214,7 +207,7 @@ main{
 }
 @media(max-width:767px) {
 	.title{
-		font-size: 20px;
+		font-size: 22px;
 		margin: 0px 0px 5px 0px;
 	}
 }
@@ -282,7 +275,6 @@ main{
 @media(max-width:767px){
 	.item__definition p{
 		font-size: 20px;
-		text-align: justify;
 	}
 }
 .item__definition li {
@@ -319,14 +311,24 @@ main{
 	text-align: justify;
 	margin: 0px 0px 10px 0px;
 }
+@media(max-width:767px){
+	.item__text{
+		font-size: 18px;
+	}
+}
 
 a{
 	display: flex;
 	padding: 5px;
 	font-size: 20px;
 }
-a.entry{
+.entry{
 	display: inline-block;
+}
+@media(max-width:767px){
+	.entry{
+		font-size: 18px;
+	}
 }
 
 em {
